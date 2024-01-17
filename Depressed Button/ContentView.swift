@@ -121,9 +121,9 @@ struct ContentView: View {
         var hue: CGFloat = 0.0
         var saturation: CGFloat = 0.0
         var brightness: CGFloat = 0.0
-        CGtoUI.getHue(&hue, saturation: &saturation, brightness: &brightness, alpha: nil)
-        
-        currentColor = Color(hue: (hue + CGFloat(todayCount) / 360).truncatingRemainder(dividingBy: 1), saturation: saturation, brightness: brightness)
+        var opacity: CGFloat = 0.0
+        CGtoUI.getHue(&hue, saturation: &saturation, brightness: &brightness, alpha: &opacity)
+        currentColor = Color(hue: (hue + CGFloat(todayCount) / 360).truncatingRemainder(dividingBy: 1), saturation: saturation, brightness: brightness, opacity: opacity)
     }
 }
 
