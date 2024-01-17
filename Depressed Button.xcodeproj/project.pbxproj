@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		558DE7D52B4A2EA700460189 /* Depressed_ButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558DE7D42B4A2EA700460189 /* Depressed_ButtonApp.swift */; };
 		558DE7D72B4A2EA700460189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558DE7D62B4A2EA700460189 /* ContentView.swift */; };
-		558DE7D92B4A2EA700460189 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558DE7D82B4A2EA700460189 /* Item.swift */; };
+		558DE7D92B4A2EA700460189 /* DepressedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558DE7D82B4A2EA700460189 /* DepressedItem.swift */; };
 		558DE7DB2B4A2EA900460189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558DE7DA2B4A2EA900460189 /* Assets.xcassets */; };
 		558DE7DE2B4A2EA900460189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558DE7DD2B4A2EA900460189 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		558DE7D12B4A2EA700460189 /* Depressed Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Depressed Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558DE7D42B4A2EA700460189 /* Depressed_ButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depressed_ButtonApp.swift; sourceTree = "<group>"; };
 		558DE7D62B4A2EA700460189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		558DE7D82B4A2EA700460189 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		558DE7D82B4A2EA700460189 /* DepressedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressedItem.swift; sourceTree = "<group>"; };
 		558DE7DA2B4A2EA900460189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558DE7DD2B4A2EA900460189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +55,7 @@
 			children = (
 				558DE7D42B4A2EA700460189 /* Depressed_ButtonApp.swift */,
 				558DE7D62B4A2EA700460189 /* ContentView.swift */,
-				558DE7D82B4A2EA700460189 /* Item.swift */,
+				558DE7D82B4A2EA700460189 /* DepressedItem.swift */,
 				558DE7DA2B4A2EA900460189 /* Assets.xcassets */,
 				558DE7DC2B4A2EA900460189 /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				558DE7D72B4A2EA700460189 /* ContentView.swift in Sources */,
-				558DE7D92B4A2EA700460189 /* Item.swift in Sources */,
+				558DE7D92B4A2EA700460189 /* DepressedItem.swift in Sources */,
 				558DE7D52B4A2EA700460189 /* Depressed_ButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,11 +279,14 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Depressed;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,11 +311,14 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Depressed;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
